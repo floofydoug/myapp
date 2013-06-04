@@ -47,3 +47,7 @@ gem "libv8", ">= 3.11.8"
 gem "therubyracer", ">= 0.11.3", :group => :assets, :platform => :ruby, :require => "v8"
 gem "omniauth", ">= 1.1.3"
 gem "omniauth-twitter"
+gem "figaro", ">= 0.6.3"
+gem "better_errors", ">= 0.7.2", :group => :development
+gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri_19, :rbx]
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
