@@ -16,7 +16,11 @@ Recipes:
 ["controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
 
 Preferences:
+<<<<<<< HEAD
 {:git=>true, :railsapps=>"none", :dev_webserver=>"thin", :prod_webserver=>"thin", :database=>"sqlite", :templates=>"erb", :unit_test=>"rspec", :integration=>"none", :continuous_testing=>"none", :fixtures=>"none", :frontend=>"bootstrap", :bootstrap=>"less", :email=>"gmail", :authentication=>"omniauth", :omniauth_provider=>"twitter", :authorization=>"none", :form_builder=>"none", :starter_app=>"users_app", :rvmrc=>false, :local_env_file=>true, :better_errors=>true, :ban_spiders=>true, :github=>true}
+=======
+{:git=>true, :railsapps=>"none", :dev_webserver=>"thin", :prod_webserver=>"thin", :database=>"postgresql", :templates=>"erb", :unit_test=>"rspec", :integration=>"none", :continuous_testing=>"none", :fixtures=>"none", :frontend=>"bootstrap", :bootstrap=>"less", :email=>"gmail", :authentication=>"omniauth", :omniauth_provider=>"twitter", :authorization=>"none", :form_builder=>"none", :starter_app=>"users_app", :rvmrc=>false, :local_env_file=>true, :better_errors=>true, :ban_spiders=>true, :github=>true}
+>>>>>>> 8877b866c4736bce9009ad970a23029e892ce651
 
 h2. Ruby on Rails
 
@@ -29,7 +33,11 @@ Learn more about "Installing Rails":http://railsapps.github.io/installing-rails.
 
 h2. Database
 
+<<<<<<< HEAD
 This application uses SQLite with ActiveRecord.
+=======
+This application uses PostgreSQL with ActiveRecord.
+>>>>>>> 8877b866c4736bce9009ad970a23029e892ce651
 
 h2. Development
 

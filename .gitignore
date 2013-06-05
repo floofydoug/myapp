@@ -16,6 +16,7 @@
 /vendor/ruby/
 
 # minimal Rails specific artifacts
+
 /log/*
 /tmp/*
 
@@ -26,8 +27,15 @@
 .rspec
 .redcar/
 .sass-cache
+<<<<<<< HEAD
 /coverage.data
 /coverage/
+=======
+/config/config.yml
+/config/database.yml
+/coverage.data
+/coverage/
+/db/*.javadb/
 /doc/api/
 /doc/app/
 /doc/features.html
