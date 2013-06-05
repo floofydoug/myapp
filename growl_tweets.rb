@@ -3,7 +3,7 @@ require 'tweetstream'
 require 'growl'
 
 
-puts "twitter samples"
+puts "searching for tegan and sara....should write to database"
 
 TweetStream.configure do |config|
   config.consumer_key       = 'YX4uQcPXYbqhY0CTEee1cA'
@@ -14,9 +14,12 @@ TweetStream.configure do |config|
 end
 
 
-# The third argument is an optional process name
+# search for "teganandsara" and will print text and screen name while storing the other values in the database.
 TweetStream::Client.new.track('teganandsara') do |status|
   puts status.text + " FROM: @" + status.user.screen_name
+  Tweet.create(:user_id => status.user.id,
+  				:tweet_text =>status.text, 
+  				:screen_name =>status.user.screen_name)
 end
 
 @client = TweetStream::Client.new
