@@ -16,7 +16,6 @@
 /vendor/ruby/
 
 # minimal Rails specific artifacts
-db/*.sqlite3
 /log/*
 /tmp/*
 
@@ -27,12 +26,8 @@ db/*.sqlite3
 .rspec
 .redcar/
 .sass-cache
-/config/config.yml
-/config/database.yml
 /coverage.data
 /coverage/
-/db/*.javadb/
-/db/*.sqlite3
 /doc/api/
 /doc/app/
 /doc/features.html
@@ -44,7 +39,6 @@ db/*.sqlite3
 /cache
 /capybara*
 /capybara-*.html
-/gems
 /specifications
 rerun.txt
 pickle-email-*.html
